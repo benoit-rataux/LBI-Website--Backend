@@ -3,6 +3,9 @@
 /.env.local
 /.env.local.php
 /.env.*.local
+/.env.test
+/.env.test.php
+/.env.*.test
 /config/secrets/prod/prod.decrypt.private.php
 /public/bundles/
 /var/
@@ -15,8 +18,8 @@
 ###< phpunit/phpunit ###
 
 ###> symfony/phpunit-bridge ###
-.phpunit.result.cache
-/phpunit.xml
+#/phpunit.xml
+#.phpunit.result.cache
 ###< symfony/phpunit-bridge ###
 
 ###> symfony/asset-mapper ###
